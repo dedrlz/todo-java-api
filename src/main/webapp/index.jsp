@@ -2,12 +2,18 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Java Web Application</title>
+<title>ToDo App</title>
 </head>
 <body>
 
-<h1>Java Web Application</h1>
-<p>This is a boilerplate for Java Web Application with Gradle</p>
+<h1>ToDo App</h1>
+<p>This is an app to help you with your ToDo/Tasks list and organization</p>
+
+<h3>GET:</h3>
+<p><%=request.getRequestURL()%>/api/tasks</p>
+
+<h3>POST:</h3>
+<p><%=request.getRequestURL()%>/api/tasks</p>
 
 </body>
 </html>
